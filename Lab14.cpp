@@ -64,9 +64,17 @@ class Color {
 
 // Main function
 int main (){
+    // Create several Color objects using constructors
+    Color color1(255, 0, 0);     // Red
+    Color color2(0, 255, 0);      // Green
+    Color color3(0, 0, 255);      // Blue
+    Color color4(128, 128, 128);  // Gray
 
-    cout << "Hi" << endl;
-
+    // Create a Color object using default constructor, then set values
+    Color color5;
+    color5.setRed(75);
+    color5.setGreen(160);
+    color5.setBlue(220);
 
     return 0;
 
