@@ -76,6 +76,16 @@ int main (){
     color5.setGreen(160);
     color5.setBlue(220);
 
+    // Output all Color objects using print() method
+    cout << "Color Values\n";
+    cout << "=======================\n";
+
+    cout << "Color 1:\n"; color1.print();
+    cout << "Color 2:\n"; color2.print();
+    cout << "Color 3:\n"; color3.print();
+    cout << "Color 4:\n"; color4.print();
+    cout << "Color 5:\n"; color5.print();
+
     return 0;
 
 }
