@@ -13,7 +13,18 @@ class Color {
 
     public:
 
-}
+    // Default constructor: initializes color to black (0, 0, 0)
+    Color() : red(0), green(0), blue(0) {}
+
+    // Parameterized constructor: initializes with given RGB values
+    
+   
+
+
+    
+
+
+};
 
 
 int main (){
