@@ -53,16 +53,16 @@ class Color {
         return blue;
     }
     
-
-   
-
-
-    
-
-
+    // to print the RGB values in formatted output
+    void print() const {
+        cout << left << setw(10) << "Red:" << red << endl;
+        cout << left << setw(10) << "Green:" << green << endl;
+        cout << left << setw(10) << "Blue:" << blue << endl;
+        cout << "-----------------------" << endl;
+    }
 };
 
-
+// Main function
 int main (){
 
     cout << "Hi" << endl;
