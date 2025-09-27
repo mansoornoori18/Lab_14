@@ -17,7 +17,28 @@ class Color {
     Color() : red(0), green(0), blue(0) {}
 
     // Parameterized constructor: initializes with given RGB values
+    Color(int r, int g, int b){
+        setRed(r);
+        setGreen(g);
+        setBlue(b);
+    }
+
+    // Setter for red value
+    void setRed(int r){
+        red = (r >= 0 && r <= 255) ? r : 0;
+    }
+
+    // Setter for green value
+    void setGreen(int g){
+        green = (g >= 0 && g <= 255) ? g : 0;
+    }
+
+    // Setter for blue value
+    void setBlue(int b){
+        blue = (b >= 0 && b <= 255) ? b : 0;
+    }
     
+
    
 
 
