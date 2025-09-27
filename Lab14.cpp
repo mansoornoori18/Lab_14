@@ -37,6 +37,21 @@ class Color {
     void setBlue(int b){
         blue = (b >= 0 && b <= 255) ? b : 0;
     }
+
+    // Getter for red value
+    int getRed() const{
+        return red;
+    }
+
+    // Getter for green value
+    int getGreen() const {
+         return green;
+    }
+
+    // Getter for blue value
+    int getBlue() const {
+        return blue;
+    }
     
 
    
